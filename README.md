@@ -8,7 +8,7 @@
 - [PyTorch](#pytorch)
 
 ## Conceptual
----
+
 ### Machine learning
 - Filter和kernel size的区别：
 https://blog.csdn.net/qq_40243750/article/details/117363922
@@ -28,7 +28,7 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
 
 
 ## Practical
----
+
 ### Environment
 - Create an environment
 
