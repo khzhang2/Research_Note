@@ -102,7 +102,7 @@ https://www.cnblogs.com/kamekin/p/10163743.html
 
   <font color=red> **Instead of**
 
-  > b_det[b_det[‘det’]==det_id][‘class’]</font>
+  > b_det[b_det[‘det’]==det_id][‘class’] = class2</font>
 
 ### Homebrew
 - zsh: command not found: brew问题：
