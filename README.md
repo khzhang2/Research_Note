@@ -12,7 +12,7 @@
 - [LSTM](#lstm)
 - [Pandas](#pandas)
 - [Homebrew](#homebrew)
-- [QGIS](#qgis)
+- [GIS](#gis)
 
 ## Conceptual
 
@@ -25,7 +25,7 @@ https://blog.csdn.net/qxqsunshine/article/details/86435404
 - 高斯混合模型（K个高斯模型的混合）
 (高斯混合模型（GMM） - 戴文亮的文章 - 知乎
 https://zhuanlan.zhihu.com/p/30483076 )
-- 变分推断（variational inference）
+- 变分紫东编码器（variational autoencoder, VAE）
   1. 我们拥有两部分输入：数据x，模型p(z, x)。
   2. 我们需要推断的是后验概率p(z | x)，但不能直接求。
   3. 构造后验概率p(z | x)的近似分布q(z; v)。
@@ -110,11 +110,29 @@ https://www.cnblogs.com/kamekin/p/10163743.html
   在terminal里输入“export PATH=/opt/homebrew/bin:$PATH”
 	https://stackoverflow.com/questions/36657321/after-installing-homebrew-i-get-zsh-command-not-found-brew
 
-### QGIS
-- How to use QGIS to view gdb file (generated from arcgis):
+### GIS
+- Software
+  - How to use QGIS to view gdb file (generated from arcgis):
 https://gis.stackexchange.com/questions/26285/installing-file-geodatabase-gdb-support-in-qgis 
 
-- How to export atibutes data to Excel file:
+  - How to export atibutes data to Excel file:
 https://gis.stackexchange.com/questions/135801/exporting-attribute-table-to-excel-from-qgis
 
+- Data
+  - Geography Mapping Files:
+https://www.census.gov/programs-surveys/geography/geographies/mapping-files.html
 
+  - TIGER/Line Geodatabases:
+https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.html
+
+  - File Transfer Protocol (FTP) archive:
+https://www2.census.gov/geo/tiger/
+
+  - Understanding Geographic Identifiers (GEOIDs):
+https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html
+
+  - Accessing Census and ACS Data in Python:
+https://pygis.io/docs/d_access_census.html
+
+  - EPSG ID:
+https://epsg.io/
