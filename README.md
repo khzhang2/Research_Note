@@ -7,7 +7,12 @@
 [Practical](#practical)
 - [Environment](#environment)
 - [PyTorch](#pytorch)
-- [Keras]
+- [Keras](#keras)
+- [Pytorch - Keras](#pytorch---keras)
+- [LSTM](#lstm)
+- [Pandas](#pandas)
+- [Homebrew](#homebrew)
+- [QGIS](#qgis)
 
 ## Conceptual
 
@@ -108,3 +113,8 @@ https://www.cnblogs.com/kamekin/p/10163743.html
 ### QGIS
 - How to use QGIS to view gdb file (generated from arcgis):
 https://gis.stackexchange.com/questions/26285/installing-file-geodatabase-gdb-support-in-qgis 
+
+- How to export atibutes data to Excel file:
+https://gis.stackexchange.com/questions/135801/exporting-attribute-table-to-excel-from-qgis
+
+
