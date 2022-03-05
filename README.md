@@ -5,7 +5,9 @@
 - [Machine learning](#machine-learning)
 
 [Practical](#practical)
+- [Environment](#environment)
 - [PyTorch](#pytorch)
+- [Keras]
 
 ## Conceptual
 
@@ -18,14 +20,13 @@ https://blog.csdn.net/qxqsunshine/article/details/86435404
 - 高斯混合模型（K个高斯模型的混合）
 (高斯混合模型（GMM） - 戴文亮的文章 - 知乎
 https://zhuanlan.zhihu.com/p/30483076 )
-- 变分推断（variational inference）<br>
-  1. 我们拥有两部分输入：数据x，模型p(z, x)。<br>
-  2. 我们需要推断的是后验概率p(z | x)，但不能直接求。<br>
-  3. 构造后验概率p(z | x)的近似分布q(z; v)。<br>
+- 变分推断（variational inference）
+  1. 我们拥有两部分输入：数据x，模型p(z, x)。
+  2. 我们需要推断的是后验概率p(z | x)，但不能直接求。
+  3. 构造后验概率p(z | x)的近似分布q(z; v)。
   4. 不断缩小q和p之间的距离直至收敛。
 - (如何简单易懂地理解变分推断(variational inference)？ - 过小咩的回答 - 知乎
 https://www.zhihu.com/question/41765860/answer/331070683 )
-
 
 ## Practical
 
