@@ -13,6 +13,7 @@
 - [Pandas](#pandas)
 - [Homebrew](#homebrew)
 - [GIS](#gis)
+- [Parellel coding](#)
 
 ## Conceptual
 
@@ -142,3 +143,9 @@ https://epsg.io/
 
   - [BART] BART Monthly Ridership Data:
   https://www.bart.gov/about/reports/ridership
+
+### Parallel coding
+- python thread:
+https://github.com/HaTT2018/get_distance/blob/main/get_distance.ipynb
+- python multiprocessing:
+https://github.com/HaTT2018/Deep_Gravity/blob/main/bart_data.py
