@@ -1,6 +1,6 @@
 # Research Note
 
-## Table of Content
+## Table of Contents
 [Conceptual](#conceptual)
 - [Machine learning](#machine-learning)
 
@@ -10,6 +10,7 @@
 - [Keras](#keras)
 - [Pytorch - Keras](#pytorch---keras)
 - [LSTM](#lstm)
+- [Numpy](#numpy)
 - [Pandas](#pandas)
 - [Homebrew](#homebrew)
 - [GIS](#gis)
@@ -97,16 +98,28 @@ https://www.cnblogs.com/think90/articles/11652213.html
 ### LSTM
 - 如何调参
 https://www.cnblogs.com/kamekin/p/10163743.html 
+
+### Numpy
+- 保存高纬度数组（array）:
+  > np.save(file=**'data.npy'**, arr=**a**)
 ### Pandas
-- 筛选and赋值语法：, e.g. 
-  > b_det.loc[b_det['det']==det_id, ‘class’] = class2
+- 筛选and赋值语法**易错点**：, e.g. 
+  > 正确：b_det.loc[b_det['det']==det_id, 'class'] = class2
 
-  <font color=red> **Instead of**
+  > <font color=red>错误：b_det[b_det['det']==det_id]['class'] = class2</font>
 
-  > b_det[b_det[‘det’]==det_id][‘class’] = class2</font>
+- 多条件筛选：
+  > **df**.loc[(**con1**) & (**con2**)]
+
+- drop multiple columns:
+  > **df**.drop([**'col1', 'col2', 'col3'**], axis=1)
+
+### Matplotlib
+- save image in svg format
+  > fig.savefig(**PATH**, format='svg')
 
 ### Homebrew
-- zsh: command not found: brew问题：
+- 报错 "zsh: command not found: brew" 的问题：
 
   在terminal里输入“export PATH=/opt/homebrew/bin:$PATH”
 	https://stackoverflow.com/questions/36657321/after-installing-homebrew-i-get-zsh-command-not-found-brew
