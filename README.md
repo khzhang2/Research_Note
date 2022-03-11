@@ -109,7 +109,7 @@ https://www.cnblogs.com/kamekin/p/10163743.html
   > <font color=red>错误：b_det[b_det['det']==det_id]['class'] = class2</font>
 
 - 多条件筛选：
-  > **df**.loc[(**con1**) & (**con2**)]
+  > **df**.loc[(**con1**) & (**con2**) & (**con3**) **...**]
 
 - drop multiple columns:
   > **df**.drop([**'col1', 'col2', 'col3'**], axis=1)
