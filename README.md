@@ -1,4 +1,4 @@
-# Research Note
+# Research Cheat Sheet
 
 ## Table of Contents
 [Conceptual](#conceptual)
