@@ -86,6 +86,15 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
   https://blog.csdn.net/Willjzq1/article/details/118030639 (所有数据放到同一个device)
   https://stackoverflow.com/questions/68222763/runtimeerror-function-addmmbackward-returned-an-invalid-gradient （检查网络参数数量）
 
+- Save model:
+  > torch.save(**model**.state_dict(), **PATH**)
+- Load model:
+  > **model** = **TheModelClass(args, kwargs)**
+
+  > **model**.load_state_dict(torch.load(**PATH**))
+
+  > **model**.eval()
+
 
 ### Keras
 - Keras中自定义复杂的loss函数：
@@ -113,6 +122,10 @@ https://www.cnblogs.com/kamekin/p/10163743.html
 
 - drop multiple columns:
   > **df**.drop([**'col1', 'col2', 'col3'**], axis=1)
+
+- save and load geopandas file:
+  > **data_X_all**.to_file(**'./data/data_X_all.shp'**, driver='ESRI Shapefile')
+  > **data_X_all** = gpd.read_file(**'./data/data_X_all.shp'**)
 
 ### Matplotlib
 - save image in svg format
