@@ -89,10 +89,8 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
 - Save model:
   > torch.save(**model**.state_dict(), **PATH**)
 - Load model:
-  > **model** = **TheModelClass(args, kwargs)**
-
-  > **model**.load_state_dict(torch.load(**PATH**))
-
+  > **model** = **TheModelClass(args, kwargs)**<br>
+  > **model**.load_state_dict(torch.load(**PATH**))<br>
   > **model**.eval()
 
 
@@ -109,8 +107,9 @@ https://www.cnblogs.com/think90/articles/11652213.html
 https://www.cnblogs.com/kamekin/p/10163743.html 
 
 ### Numpy
-- 保存高纬度数组（array）:
-  > np.save(file=**'data.npy'**, arr=**a**)
+- 保存高纬度数组（array）和读取:
+  > np.save(file=**PATH**, arr=**a**)<br>
+  > np.load(**PATH**)
 ### Pandas
 - 筛选and赋值语法**易错点**：, e.g. 
   > 正确：b_det.loc[b_det['det']==det_id, 'class'] = class2
@@ -124,12 +123,12 @@ https://www.cnblogs.com/kamekin/p/10163743.html
   > **df**.drop([**'col1', 'col2', 'col3'**], axis=1)
 
 - save and load geopandas file:
-  > **data_X_all**.to_file(**'./data/data_X_all.shp'**, driver='ESRI Shapefile')
+  > **data_X_all**.to_file(**'./data/data_X_all.shp'**, driver='ESRI Shapefile')<br>
   > **data_X_all** = gpd.read_file(**'./data/data_X_all.shp'**)
 
 ### Matplotlib
 - save image in svg format
-  > fig.savefig(**PATH**, format='svg')
+  > **fig**.savefig(**PATH**, format='svg')
 
 ### Homebrew
 - 报错 "zsh: command not found: brew" 的问题：
