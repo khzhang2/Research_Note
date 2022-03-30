@@ -34,6 +34,8 @@ https://zhuanlan.zhihu.com/p/30483076 )
   4. 不断缩小q和p之间的距离直至收敛。
 - (如何简单易懂地理解变分推断(variational inference)？ - 过小咩的回答 - 知乎
 https://www.zhihu.com/question/41765860/answer/331070683 )
+- Variational autoencoders. - JEREMY JORDAN, 2018 
+https://www.jeremyjordan.me/variational-autoencoders/
 
 ## Practical
 
