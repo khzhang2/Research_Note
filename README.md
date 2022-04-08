@@ -56,9 +56,13 @@ https://www.jeremyjordan.me/variational-autoencoders/
 
 - Remove an environment
 
-  >conda remove -n [name] --all
+  > conda remove -n [name] --all
 
   > jupyter kernelspec remove [name]
+
+- Clone an environment
+  
+  > conda create --name [new_envname] --clone [old_envname]
 
 - pip list
   - Get piplist
