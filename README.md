@@ -62,7 +62,10 @@ https://www.jeremyjordan.me/variational-autoencoders/
 
 - Clone an environment
   
-  > conda create --name [new_envname] --clone [old_envname]
+  > conda create --name [new_envname] --clone [old_envname]  # NOT recommended
+  
+  > pip freeze -l > requirements.txt
+  > pip install -r requirements.txt
 
 - pip list
   - Get piplist
