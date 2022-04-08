@@ -64,7 +64,8 @@ https://www.jeremyjordan.me/variational-autoencoders/
   
   > conda create --name [new_envname] --clone [old_envname]  # NOT recommended
   
-  > pip freeze -l > requirements.txt
+  Can use:
+  > pip freeze -l > requirements.txt<br>
   > pip install -r requirements.txt
 
 - pip list
