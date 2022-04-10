@@ -16,6 +16,7 @@
 - [GIS](#gis)
 - [Parellel coding](#parallel-coding)
 - [Parser](#parser)
+- [Colab](#colab)
 
 ## Conceptual
 
@@ -202,5 +203,14 @@ https://github.com/HaTT2018/Deep_Gravity/blob/main/bart_data.py
   > <code>\# (4) 调用这些参数</code><br>
   > print(args.parg)<br>
   > print("echo ={0}".format(args.digit))<br>
-  > print("name = {}".format(args.name))
+  > print("name = {}".format(args.name))w
 
+### Colab
+- Download publicly shared google drive file:
+  > !pip install -U --no-cache-dir gdown --pre<br>
+  > !gdown --id **FILE_ID** --no-cookies
+- Command line commands
+  - create folder
+    > !mkdir **DIR_NAME**  <br>
+  - move file
+    > !mv **PATH1** **PATH2**
