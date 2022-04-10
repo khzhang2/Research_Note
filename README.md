@@ -35,6 +35,8 @@ https://zhuanlan.zhihu.com/p/30483076 )
   4. 不断缩小q和p之间的距离直至收敛。
 - (如何简单易懂地理解变分推断(variational inference)？ - 过小咩的回答 - 知乎
 https://www.zhihu.com/question/41765860/answer/331070683 )
+- Variational autoencoders. - JEREMY JORDAN, 2018 
+https://www.jeremyjordan.me/variational-autoencoders/
 
 ## Practical
 
@@ -55,9 +57,17 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
 
 - Remove an environment
 
-  >conda remove -n [name] --all
+  > conda remove -n [name] --all
 
   > jupyter kernelspec remove [name]
+
+- Clone an environment
+  
+  > conda create --name [new_envname] --clone [old_envname]  # NOT recommended
+  
+  Can use:
+  > pip freeze -l > requirements.txt<br>
+  > pip install -r requirements.txt
 
 - pip list
   - Get piplist
