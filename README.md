@@ -14,7 +14,8 @@
 - [Pandas](#pandas)
 - [Homebrew](#homebrew)
 - [GIS](#gis)
-- [Parellel coding](#)
+- [Parellel coding](#parallel-coding)
+- [Parser](#parser)
 
 ## Conceptual
 
@@ -174,3 +175,22 @@ https://epsg.io/
 https://github.com/HaTT2018/get_distance/blob/main/get_distance.ipynb
 - python multiprocessing:
 https://github.com/HaTT2018/Deep_Gravity/blob/main/bart_data.py
+
+### Parser
+- reference: https://blog.csdn.net/qq_34243930/article/details/106517985
+- example code:
+
+  > import argparse<br>
+  > <code>\# (1) 声明一个parser</code><br>
+  > parser = argparse.ArgumentParser()<br>
+  > <code>\# (2) 添加参数</code><br>
+  > parser.add_argument("parg")  <code> # 位置参数，这里表示第一个出现的参数赋值给parg</code><br>
+  > parser.add_argument("--digit",type=int,help="输入数字") <code># 通过 --echo xxx声明的参数，为int类型</code><br>
+  > parser.add_argument("--name",help="名字",default="cjf") <code># 同上，default 表示默认值</code><br>
+  > <code>\# (3) 读取命令行参数</code><br>
+  > args = parser.parse_args()<br>
+  > <code>\# (4) 调用这些参数</code><br>
+  > print(args.parg)<br>
+  > print("echo ={0}".format(args.digit))<br>
+  > print("name = {}".format(args.name))
+
