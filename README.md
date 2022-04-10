@@ -192,7 +192,7 @@ https://github.com/HaTT2018/Deep_Gravity/blob/main/bart_data.py
 
   > import argparse<br>
   > <code>\# (1) 声明一个parser</code><br>
-  > parser = argparse.ArgumentParser()<br>
+  > parser = argparse.ArgumentParser(description='test')<br>
   > <code>\# (2) 添加参数</code><br>
   > parser.add_argument("parg")  <code> # 位置参数，这里表示第一个出现的参数赋值给parg</code><br>
   > parser.add_argument("--digit",type=int,help="输入数字") <code># 通过 --echo xxx声明的参数，为int类型</code><br>
