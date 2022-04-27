@@ -148,6 +148,8 @@ https://www.cnblogs.com/kamekin/p/10163743.html
   > **gdf**.to_file(**PATH**, driver='ESRI Shapefile')
 - 读取GeoDataFrame (.shp file):
   > gpd.read_file(**PATH**)
+- 如何安装skmob/geopandas
+  > conda install -c conda-forge scikit-mobility
 
 ### Matplotlib
 - save image in svg format
