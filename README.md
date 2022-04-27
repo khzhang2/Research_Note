@@ -83,6 +83,10 @@ https://www.jeremyjordan.me/variational-autoencoders/
     > pip install -r requirements.txt
 
 - 安装、卸载cuda和cudnn：从卸载到安装：https://zhuanlan.zhihu.com/p/412838545 
+- Kernel died: 查看command line里的报错信息。
+  > OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll already initialized.
+  
+  删除./Anaconda3/envs/**XXX**/Lib/site-packages/torch/lib/libiomp5md.dll
 
 ### PyTorch
 > **torch.nn.Conv2d**(in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, padding_mode='zeros', device=None, dtype=None)
