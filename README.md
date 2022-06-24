@@ -2,7 +2,9 @@
 
 ## Table of Contents
 [Conceptual](#conceptual)
+- [Terminologies](#terminologies)
 - [Machine learning](#machine-learning)
+- [Distributions](#distributions)
 
 [Practical](#practical)
 - System
@@ -48,6 +50,11 @@ https://zhuanlan.zhihu.com/p/30483076 )
 https://www.zhihu.com/question/41765860/answer/331070683 )
 - Variational autoencoders. - JEREMY JORDAN, 2018 
 https://www.jeremyjordan.me/variational-autoencoders/
+
+### Distributions
+| Distribution | Description | Mean | Variance |
+| --- | --- | --- |
+
 
 ## Practical
 
