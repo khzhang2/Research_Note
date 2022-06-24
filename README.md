@@ -25,6 +25,11 @@
 
 ## Conceptual
 
+### Terminologies
+Inductive: Using particular facts and examples to form general rules and principles.
+
+Deductive: Using knowledge about things that are generally true in order to think about and understand particular situations or problems.
+
 ### Machine learning
 - Filter和kernel size的区别：
 https://blog.csdn.net/qq_40243750/article/details/117363922
