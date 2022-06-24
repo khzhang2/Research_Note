@@ -52,8 +52,7 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
 https://www.jeremyjordan.me/variational-autoencoders/
 
 ### Distributions
-| Distribution | Description | Mean | Variance |
-| --- | --- | --- |
+<img src="./imgs/distributions.png" width="500">
 
 
 ## Practical
