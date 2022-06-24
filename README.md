@@ -52,7 +52,7 @@ https://www.zhihu.com/question/41765860/answer/331070683 )
 https://www.jeremyjordan.me/variational-autoencoders/
 
 ### Distributions
-<img src="./img/distributions.png" width="500">
+<img src="./img/distributions.png" width="750">
 
 
 ## Practical
