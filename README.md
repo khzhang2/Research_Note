@@ -24,6 +24,7 @@
   - [Pandas](#pandas)
   - [GeoPandas](#geopandas)
   - [GIS](#gis)
+  - [Matplotlib](#matplotlib)
 
 ## Conceptual
 
