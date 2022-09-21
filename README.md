@@ -213,7 +213,7 @@ https://epsg.io/
 - python thread:
 https://github.com/HaTT2018/get_distance/blob/main/get_distance.ipynb
 - python multiprocessing:
-https://github.com/HaTT2018/Deep_Gravity/blob/main/bart_data.py
+https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_data.py
 
 ### Parser
 - reference: https://blog.csdn.net/qq_34243930/article/details/106517985
