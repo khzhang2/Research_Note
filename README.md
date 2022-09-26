@@ -11,6 +11,7 @@
   - [Environment](#environment)
   - [Colab](#colab)
   - [Homebrew](#homebrew)
+  - [Git](#git)
 - Python
   - [Parellel coding](#parallel-coding)
   - [Parser](#parser)
@@ -243,5 +244,19 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
     > !mkdir **DIR_NAME**  <br>
   - move file
     > !mv **PATH1** **PATH2**
+
+
+### Git
+> git pull origin main
+
+> git status
+
+> git add .
+
+> git commit -m "xxxx"
+
+> git push origin main
+
+
 
 [Back To Top](#table-of-contents)
