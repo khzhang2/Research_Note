@@ -12,6 +12,7 @@
   - [Colab](#colab)
   - [Homebrew](#homebrew)
   - [Git](#git)
+  - [SSH](#ssh)
 - Python
   - [Parellel coding](#parallel-coding)
   - [Parser](#parser)
@@ -253,9 +254,26 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
 
 > git add .
 
+> git restore .
+
 > git commit -m "xxxx"
 
 > git push origin main
+
+> git pull origin main
+
+> git checkout -f .
+
+
+### ssh
+- Open a local screen terminal on remote server, can work even when offline
+  > screen -S [name]
+
+  > screen -ls
+
+  > screen -r [pid.name]
+  
+  > screen -X -S [name] quit
 
 
 
