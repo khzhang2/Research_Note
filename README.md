@@ -256,6 +256,8 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
 
 > git restore .
 
+> git clean -f -d
+
 > git commit -m "xxxx"
 
 > git push origin main
