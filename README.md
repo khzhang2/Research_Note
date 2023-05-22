@@ -16,6 +16,8 @@
 - Python
   - [Parellel coding](#parallel-coding)
   - [Parser](#parser)
+- MATLAB
+  - [Parallel computing toolbox](#parallel-computing-toolbox)
 - Machine Learning
   - [PyTorch](#pytorch)
   - [Keras](#keras)
@@ -277,6 +279,14 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
   
   > screen -X -S [name] quit
 
+### Parallel computing toolbox
+start a pool
+  > parpool('local', [numWorkers]);
+delete a pool
+  > delete(gcp('nocreate'));
+check attributes of a pool
+  > pool = gcp('nocreate');
+  > numWorkers = pool.NumWorkers;
 
 
 [Back To Top](#table-of-contents)
