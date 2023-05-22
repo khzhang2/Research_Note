@@ -282,10 +282,13 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
 ### Parallel computing toolbox
 start a pool
   > parpool('local', [numWorkers]);
+
 delete a pool
   > delete(gcp('nocreate'));
+  
 check attributes of a pool
   > pool = gcp('nocreate');
+  
   > numWorkers = pool.NumWorkers;
 
 
