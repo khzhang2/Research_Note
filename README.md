@@ -292,6 +292,13 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
 
   > 此时断开ssh连接不会kill掉进程
 
+- 使用本地命令行执行远程Jupyter notebook
+  1. On the remote machine, start jupyter notebook from your current directory and specify the port:
+    > jupyter notebook --no-browser --port=9999
+  2. On the local machine, catch the forwarded port:
+    > ssh -NfL localhost:9999:localhost:9999 [username]@[ip.ip.ip]
+  3. Go to http://localhost:9999. You should be able to select your notebook and you'll be good to go.
+
 ### Parallel computing toolbox
 start a pool
   > parpool('local', [numWorkers]);
