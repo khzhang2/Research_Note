@@ -279,6 +279,18 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
   
   > screen -X -S [name] quit
 
+- linux如何将一个正在运行的进程转入到后台执行且中断shh连接不被kill掉
+- source：https://blog.csdn.net/happywlg123/article/details/116277415
+  > control + Z or ctrl + Z 暂停并回到控制台
+
+  > 输入bg，把进程挂到后台运行
+
+  > 输入jobs，查看后台运行的程序，记录进程编号（在[]里面）
+
+  > 输入disown -h %编号，例如：disown -h %1
+
+  > 此时断开ssh连接不会kill掉进程
+
 ### Parallel computing toolbox
 start a pool
   > parpool('local', [numWorkers]);
