@@ -69,6 +69,8 @@ https://www.jeremyjordan.me/variational-autoencoders/
 
   > conda env list
 
+  > conda activate [name]
+
   > pip install jupyter
 
   > python -m ipykernel install --name=[name]
