@@ -278,6 +278,7 @@ https://github.com/HaTT2018/BART_Ridership_Prediction/blob/main/Data%20-%20bart_
   > screen -ls
 
   > screen -d [pid.name]
+  or, press control+A and then D
 
   > screen -r [pid.name]
   
